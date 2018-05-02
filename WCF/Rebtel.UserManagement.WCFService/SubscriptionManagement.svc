@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Rebtel.UserManagement.WCFService.SubscriptionManagement" Factory="Rebtel.UserManagement.WCFService.WcfServiceFactory" %>

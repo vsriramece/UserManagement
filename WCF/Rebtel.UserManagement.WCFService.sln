@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebtel.UserManagement.WCFService", "Rebtel.UserManagement.WCFService\Rebtel.UserManagement.WCFService.csproj", "{121C4E3E-E987-46F4-B87A-F3AE172297CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebtel.UserManagement.Infrastructure", "Rebtel.UserManagement.Infrastructure\Rebtel.UserManagement.Infrastructure.csproj", "{39A72233-3D2F-43A3-84D0-ABEEAA6E94E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebtel.UserManagement.Domain", "Rebtel.UserManagement.Domain\Rebtel.UserManagement.Domain.csproj", "{1A4A52AA-6C45-4FE4-AD73-3E82FE3A00EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebtel.Common", "..\Rebtel.Common\Rebtel.Common.csproj", "{F7B2DFFA-9706-43FA-A943-722CBF9F6940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebtel.WCFService.Tests", "Rebtel.WCFService.Tests\Rebtel.WCFService.Tests.csproj", "{3B7F4162-E1E6-4D57-B2CF-2B75E1604EAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121C4E3E-E987-46F4-B87A-F3AE172297CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121C4E3E-E987-46F4-B87A-F3AE172297CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121C4E3E-E987-46F4-B87A-F3AE172297CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121C4E3E-E987-46F4-B87A-F3AE172297CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A72233-3D2F-43A3-84D0-ABEEAA6E94E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A72233-3D2F-43A3-84D0-ABEEAA6E94E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A72233-3D2F-43A3-84D0-ABEEAA6E94E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A72233-3D2F-43A3-84D0-ABEEAA6E94E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4A52AA-6C45-4FE4-AD73-3E82FE3A00EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4A52AA-6C45-4FE4-AD73-3E82FE3A00EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4A52AA-6C45-4FE4-AD73-3E82FE3A00EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4A52AA-6C45-4FE4-AD73-3E82FE3A00EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B2DFFA-9706-43FA-A943-722CBF9F6940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B2DFFA-9706-43FA-A943-722CBF9F6940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B2DFFA-9706-43FA-A943-722CBF9F6940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B2DFFA-9706-43FA-A943-722CBF9F6940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7F4162-E1E6-4D57-B2CF-2B75E1604EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7F4162-E1E6-4D57-B2CF-2B75E1604EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7F4162-E1E6-4D57-B2CF-2B75E1604EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7F4162-E1E6-4D57-B2CF-2B75E1604EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
