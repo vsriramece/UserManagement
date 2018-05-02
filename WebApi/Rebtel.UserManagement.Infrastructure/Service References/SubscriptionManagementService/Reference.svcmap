@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="330e67cf-1f3d-449e-94a6-6b6114e4ab40" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51554/SubscriptionManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SubscriptionManagement.disco" MetadataType="Disco" ID="a9130fb4-274c-4f7d-815d-bc050b84f8a0" SourceId="1" SourceUrl="http://localhost:51554/SubscriptionManagement.svc?disco" />
+    <MetadataFile FileName="SubscriptionManagement.wsdl" MetadataType="Wsdl" ID="f8ed66b0-7bbc-421f-bfa4-8db04f94c56f" SourceId="1" SourceUrl="http://localhost:51554/SubscriptionManagement.svc?wsdl" />
+    <MetadataFile FileName="SubscriptionManagement.xsd" MetadataType="Schema" ID="42cb412b-bee6-4a48-b703-7f9cb5feb9a7" SourceId="1" SourceUrl="http://localhost:51554/SubscriptionManagement.svc?xsd=xsd1" />
+    <MetadataFile FileName="SubscriptionManagement1.xsd" MetadataType="Schema" ID="588b3866-5857-4fd8-b311-915d1bb0d053" SourceId="1" SourceUrl="http://localhost:51554/SubscriptionManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="SubscriptionManagement2.xsd" MetadataType="Schema" ID="529178fa-e1d6-46a0-8819-516829ddc209" SourceId="1" SourceUrl="http://localhost:51554/SubscriptionManagement.svc?xsd=xsd3" />
+    <MetadataFile FileName="SubscriptionManagement3.xsd" MetadataType="Schema" ID="a7cde468-0dfa-4ff7-8b4a-aea1788fcaa7" SourceId="1" SourceUrl="http://localhost:51554/SubscriptionManagement.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

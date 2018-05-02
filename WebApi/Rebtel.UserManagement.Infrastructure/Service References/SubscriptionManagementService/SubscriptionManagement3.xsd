@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Rebtel.UserManagement.Infrastructure.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Rebtel.UserManagement.Infrastructure.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51554/SubscriptionManagement.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="CreateSubcription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Callminutes" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:double" />
+      <xs:element minOccurs="0" name="PriceIncVatAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CreateSubcription" nillable="true" type="tns:CreateSubcription" />
+  <xs:complexType name="UpdateSubscription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Callminutes" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:double" />
+      <xs:element minOccurs="0" name="PriceIncVatAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="SubcriptionId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UpdateSubscription" nillable="true" type="tns:UpdateSubscription" />
+</xs:schema>

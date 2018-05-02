@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Rebtel.UserManagement.Infrastructure.DTO.Response" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Rebtel.UserManagement.Infrastructure.DTO.Response" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51554/UserManagement.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="CreateUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CreateUserResponse" nillable="true" type="tns:CreateUserResponse" />
+  <xs:complexType name="UserData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Lastname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subscriptions" nillable="true" type="tns:ArrayOfSubscriptionData" />
+      <xs:element minOccurs="0" name="TotalPriceIncVatAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Totalcallminutes" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserData" nillable="true" type="tns:UserData" />
+  <xs:complexType name="ArrayOfSubscriptionData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SubscriptionData" nillable="true" type="tns:SubscriptionData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSubscriptionData" nillable="true" type="tns:ArrayOfSubscriptionData" />
+  <xs:complexType name="SubscriptionData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Callminutes" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:double" />
+      <xs:element minOccurs="0" name="PriceIncVatAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SubscriptionData" nillable="true" type="tns:SubscriptionData" />
+  <xs:complexType name="ArrayOfUserData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserData" nillable="true" type="tns:UserData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserData" nillable="true" type="tns:ArrayOfUserData" />
+</xs:schema>
